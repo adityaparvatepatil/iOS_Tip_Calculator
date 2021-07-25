@@ -31,8 +31,6 @@ Here's a walkthrough of implemented user stories:
 ![](https://i.imgur.com/WiuS0UP.gif)
 
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
 ## Notes
 
 Describe any challenges encountered while building the app.
