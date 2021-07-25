@@ -29,14 +29,19 @@ class ViewController: UIViewController {
         //Extracting bill from input bill
         let bill = Double(billAmountTextField.text!) ?? 0
         
+        //Assigning Tips
         let tipPercents = [0.15, 0.18, 0.20]
         
+        //Calculating Tip
         let tip = bill*tipPercents[tipControl.selectedSegmentIndex]
+        
+        //Calculating Total
         let total = bill  + tip
         
         tipAmountLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
         
     }
+    //
 }
 
