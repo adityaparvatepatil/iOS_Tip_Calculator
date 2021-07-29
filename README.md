@@ -14,9 +14,8 @@ The following **required** functionality is complete:
 - [x] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
 
 The following **optional** features are implemented:
-
--[x] Adding Numeric Keypad
--[x] Title to the calculator
+- [x] Adding Numeric Keypad
+- [x] Title to the calculator
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
