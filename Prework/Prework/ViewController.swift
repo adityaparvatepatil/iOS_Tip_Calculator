@@ -13,8 +13,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        self.billAmountTextField.becomeFirstResponder()
+        
+        //Making Keyboard the first responder
+        billAmountTextField.becomeFirstResponder()
     }
+    
 
     @IBOutlet weak var billAmountTextField: UITextField!
     
